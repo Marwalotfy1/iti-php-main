@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* background-color:#DCA06D ; */
+}
+ #h h1{
+    text-align: center;
+    padding-top: 15px;
+    color:#e3d9d9;
+    font-size: 50px;
+}
+
+nav{
+    padding: 15px;
+    background-color:#210F37 ;
+}
+
+nav a{
+    
+    text-decoration: none;
+    text-align: center;
+    color: #DCA06D;
+    text-indent: 2px;
+    margin: 5px;
+}
+nav a:hover{
+    color: #A55B4B;
+}
+#h div p{
+     padding: 50px;
+     margin:20px;
+    font-size: 25px;
+    color: aliceblue;
+    line-height: 1.6;
+    text-align: center;
+}
+[alt="japan"]{
+    width: 600px;
+    margin-left: 270px;
+    transition: all ease-in-out;
+}
+[alt="japan"]:hover{
+    transform: scale(1.05) 
+}
+#a p{
+    margin:10px;
+    text-align: center;
+    font-size: 20px;
+    color: #422664;
+}
+#a ul{
+    color: #422664;
+    text-align: center;
+    list-style-position: inside;
+    margin: 5px;
+}
+[alt="oman"]{
+    width: 600px;
+    margin-left: 270px;
+     transition: all ease-in-out;
+}
+[alt="oman"]:hover{
+    transform: scale(1.05) 
+}
+#b p{
+    margin:10px;
+    text-align: center;
+    font-size: 20px;
+    color: #422664;
+}
+[alt="spain"]{
+    width: 600px;
+    margin-left: 270px;
+     transition: all ease-in-out;
+}
+[alt="spain"]:hover{
+    transform: scale(1.05) 
+}
+#c p{
+    margin:10px;
+    text-align: center;
+    font-size: 20px;
+    color: #422664;
+}
+[alt="England"]{
+    width: 600px;
+    margin-left: 270px;
+     transition: all ease-in-out;
+}
+[alt="England"]:hover{
+    transform: scale(1.05) 
+}
+#d p{
+    margin: 0px  10px;
+    text-align: center;
+    font-size: 20px;
+    color: #422664;
+}
+#n h2{
+    margin: 15px;
+color: #422664;
+}
+#n ul{
+    margin: 20px;
+}
+#a{
+    margin: 20px;
+}
+caption{
+    text-align: center;
+    font-size: 25px;
+    color: #422664;
+    margin: 20px;
+}
+table{
+    background-color: #A55B4B;
+    width: 100%;
+}
+th{
+    background-color: #DCA06D;
+}
+blockquote{
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #351a55;
+  border: #A55B4B solid ;
+  font-size: 20px;
+}
+#sub{
+    margin: 20px;
+    color: #faf9fb;
+
+}
+button{
+color: #422664;
+background-color: #DCA06D;}
+#mm{
+       margin: 20px;
+    color: #f8f7f9; 
+}
+#dest{
+    margin: 20px;
+    color: #f7f6f8;    
+}
+#tips{
+       margin: 20px;
+    color: #f8f7f9;  
+}
+#contact{
+       margin: 20px;
+    color: #f8f7f9;      
+}
