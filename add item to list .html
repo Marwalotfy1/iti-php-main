@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="text" name=" input" id="input" placeholder="add food">
+        <button  style=" background-color: rgb(169, 107, 107);" id="button"> Add</button>
+        <ul id="ul">
+            <li>
+                milk
+            </li>
+            <li>
+                bread
+            </li>
+        </ul>
+    </div>
+</body>
+<script>
+    let button = document.getElementById("button");
+    let input = document.getElementById("input");
+    let ul = document.getElementById("ul");
+    
+    button.addEventListener("click", function() {
+        let li = document.createElement("li");
+        li.textContent = input.value;
+        ul.appendChild(li);
+        // to clear the input field after adding the item
+        input.value = "";
+    });
+</script>
+</html>
